@@ -39,8 +39,8 @@ HELP_TXT = "<b>ᴛʜɪs ɪs ᴀɴ ᴀɴɪᴍᴇ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 
 ABOUT_TXT = "<b>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/WhiteBeard_Sama>Mʏsᴛɪᴄ Nᴇxᴜs</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Team_Onigashima>𝐒ʜɪʀᴏʜɪɢᴇ</a>\n◈ ʜɪɴᴅɪ sᴜʙ ᴀɴɪᴍᴇ : <a href=https://t.me/Anime_Flux>𝐀ɴɪᴍᴇ 𝐃ʀɪғᴛ</a>\n◈ ʜɪɴᴅɪ ᴅᴜʙ ᴀɴɪᴍᴇ : <a href=https://t.me/Shirohige_Hindi_Toonz>𝐀ɴɪᴍᴇ 𝐙ᴇɴ</a>\n◈ ʜᴇᴍᴛᴀɪ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+sOF6oYv8MPVmOGQ1>𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/WhiteBeard_Sama>Mʏsᴛɪᴄ Nᴇxᴜs</a></b>"
 START_MSG = os.environ.get("START_MESSAGE", "<b>Kᴏɴɴɪᴄʜɪᴡᴀ!! {mention}⚡,\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Flux'>𝐀ɴɪᴍᴇ 𝐅𝐥𝐮𝐱</a></b>")
 try:
-    ADMINS=[7149088701,8034341907,6765266637]
-    for x in (os.environ.get("ADMINS", "1418213560 5261438298 7344678908").split()):
+    ADMINS=[7149088701]
+    for x in (os.environ.get("ADMINS", "1418213560 5261438298 7344678908 7149088701 6765266637").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
