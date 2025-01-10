@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\nᴍʏ ᴏᴡɴᴇʀ : @Anime_Flux ..."
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(7149088701,6765266637)
+ADMINS.append(7149088701,6765266637,8034341907)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
