@@ -1,7 +1,20 @@
-# --- For-Bot-Working --------- #
-https://codeload.github.com/sanjisama6287/pyrogram/zip/refs/heads/dev
-TgCrypto
-pyromod
+pyrogram 
+TgCrypto 
+pyromod==1.5
+pyrofork==2.3.38
+humanize
+schedule
+APscheduler
+# --- For-Database ------------ #
 pymongo
+motor
 dnspython
+# --- For-Web-Response ------- #
 aiohttp
+python-dotenv
+# --- For-Web-Response ------- #
+pytz
+requests
+bs4
+aiofiles
+asyncio
