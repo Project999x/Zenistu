@@ -1,20 +1,6 @@
-pyrogram 
-TgCrypto 
-pyromod==1.5
-pyrofork==2.3.38
-humanize
-schedule
-APscheduler
-# --- For-Database ------------ #
+https://codeload.github.com/gautamajay52/pyrogram/zip/refs/heads/dev
+TgCrypto
+pyromod
 pymongo
-motor
 dnspython
-# --- For-Web-Response ------- #
 aiohttp
-python-dotenv
-# --- For-Web-Response ------- #
-pytz
-requests
-bs4
-aiofiles
-asyncio
